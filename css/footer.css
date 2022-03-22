@@ -1,0 +1,72 @@
+@import url("./style.css");
+#title {
+    color: rgb(40, 201, 75);
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+}
+
+#title h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.cont {
+    display: flex;
+    position: relative;
+    max-width: var(--max-w);
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.left-cont {
+    height: 350px;
+    background-color: var(--bg);
+    padding: 0 13px;
+}
+
+.right-cont {
+    background-color: rgba(10, 36, 83, 0.82);
+    color: white;
+    text-align: center;
+    border: 3px rgb(182, 224, 30) dashed;
+}
+
+.left-cont ul {
+    padding: 0px;
+    left: 0px;
+}
+
+.right-cont p {
+    padding: 0 10px;
+}
+
+.right-cont input[type=text] {
+    width: 90%;
+    height: 40px;
+    margin: 0px 5px;
+}
+
+.right-cont input[type=submit] {
+    padding: 10px 10px;
+    background-color: rgb(40, 201, 75);
+    /* color: white; */
+}
+
+.right-cont textarea {
+    width: 90%;
+}
+
+.container-fluid {
+    position: relative;
+}
+
+.containerr {
+    top: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+li {
+    margin: 0px;
+}

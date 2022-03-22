@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans:wght@300;400&display=swap');
+.header {
+    width: 100%;
+    background-color: rgb(234, 241, 241);
+    font-family: 'Bungee', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+.chen {
+    height: 100px;
+}
+
+.menu {
+    height: 100px;
+    font-size: 20px;
+}
+
+.info-flex {
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    justify-content: space-between;
+    background-color: green;
+}
+
+.infor,
+.infor p,
+.infor i {
+    background-color: green;
+}
+
+.menu .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image img {
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
+    left: -30px;
+    position: absolute;
+}
+
+.style-4,
+.box {
+    padding-top: 25px;
+}
+
+.menu-4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.menu-4 * {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.menu-4 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1.5em;
+    overflow: hidden;
+}
+
+.menu-4 a {
+    padding: 0.3em 0;
+    color: #212121;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.menu-4 a:before,
+.menu-4 a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.menu-4 a:before {
+    bottom: 100%;
+    display: block;
+    height: 3px;
+    width: 100%;
+    content: "";
+    background-color: green;
+}
+
+.menu-4 a:after {
+    padding: 0.3em 0;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    content: attr(data-hover);
+    color: #212121;
+    white-space: nowrap;
+}
+
+.menu-4 li:hover a,
+.menu-4 .current a {
+    transform: translateY(100%);
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    margin-left: 120px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.container-4 {
+    overflow: hidden;
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.container-4 input#search {
+    width: 300px;
+    height: 50px;
+    background: rgb(106, 192, 106);
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: green;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.container-4 input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+
+.container-4 input#search:-moz-placeholder {
+    /* Firefox 18- */
+    color: #65737e;
+}
+
+.container-4 input#search::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #65737e;
+}
+
+.container-4 input#search:-ms-input-placeholder {
+    color: #657e6f;
+}
+
+.container-4 button.icon {
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background: #439b1b;
+    height: 50px;
+    width: 50px;
+    color: #98c085;
+    opacity: 0;
+    font-size: 10pt;
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+}
+
+.container-4:hover button.icon,
+.container-4:active button.icon,
+.container-4:focus button.icon {
+    outline: none;
+    opacity: 1;
+    margin-left: -50px;
+}
+
+.container-4:hover button.icon:hover {
+    background: white;
+}
